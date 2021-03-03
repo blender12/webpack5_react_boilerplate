@@ -1,15 +1,14 @@
 import React, { useState } from 'react';
 
-function App() {
+ function App({onC}) {
   const [z, setZ] = useState('BOLO');
   return (
     <>
-      <h1>React-test{z}</h1>
-      <button 
-       type="button" 
-       onClick={() => {
-       setZ('okay');
-      }}>click</button>
+    <h1>{z}</h1>
+      <button
+        type="button"
+        onClick={onC}
+      >click</button>
    </>
   );
 }

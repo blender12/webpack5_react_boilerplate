@@ -1,0 +1,3 @@
+{
+    "testRegex":["((\\.|/*.)(spec|test|_tests_))\\.js?$"]
+}
